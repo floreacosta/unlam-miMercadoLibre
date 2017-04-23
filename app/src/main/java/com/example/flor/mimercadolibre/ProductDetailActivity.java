@@ -14,10 +14,11 @@ public class ProductDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_product_detail);
 
         Button buttonBuyPdp = (Button) findViewById(R.id.buttonBuyPdp);
+
         buttonBuyPdp.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                v.setBackgroundColor(Color.parseColor("#2193af"));
+            public void onClick(View button) {
+                button.setBackgroundColor(Color.parseColor("#2193af"));
             }
         });
     }
