@@ -15,7 +15,7 @@
         android:id="@+id/logoGlobal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MiMercadoLibre"
+        android:text="MiMercadoLibre - By Florencia"
         android:background="#ffdb15"
         android:padding="15dp"
         android:textColor="#333333"
@@ -30,7 +30,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/logoGlobal"
         android:layout_marginTop="14dp"
-        android:src="@drawable/gamepad-analogico-jpg-830"
+        android:src="@drawable/gamepad"
         android:background="@android:color/black"
         android:elevation="20dp" />
 
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imagePdp"
-        android:text="Mochila Lona verde Militar Funda Compu C/cuero - Tricera"
+        android:text="Joystick Gamepad analógico con 12 botones de acción Gtc-Ribbon"
         android:textColor="#333333"
         android:textStyle="bold"
         android:textSize="20sp"
