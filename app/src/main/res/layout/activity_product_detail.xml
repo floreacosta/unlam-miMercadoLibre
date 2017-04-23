@@ -15,11 +15,12 @@
         android:id="@+id/logoGlobal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MiMercadoLibre - By Florencia"
+        android:text="Mi Mercado Libre - By Florencia"
         android:background="#ffdb15"
         android:padding="15dp"
         android:textColor="#333333"
         android:textStyle="bold"
+        android:elevation="20dp"
         />
 
     <ImageView
