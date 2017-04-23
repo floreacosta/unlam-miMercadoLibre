@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0"
+    tools:context="com.example.flor.mimercadolibre.ProductDetailActivity"
+    android:background="#e6e6e6"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:id="@+id/logoGlobal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MiMercadoLibre"
+        android:background="#ffdb15"
+        android:padding="15dp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imagePdp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logoGlobal"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/gamepad-analogico-jpg-830"
+        android:background="@android:color/black"
+        android:elevation="20dp" />
+
+    <TextView
+        android:id="@+id/titlePdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagePdp"
+        android:text="Mochila Lona verde Militar Funda Compu C/cuero - Tricera"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/pricePdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlePdp"
+        android:textColor="#999999"
+        android:textStyle="bold"
+        android:text="$1.699"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/containingInfoPdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pricePdp"
+        android:layout_weight="1.0"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/iconGlobalDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            >
+            <TextView
+                android:id="@+id/titleInformationGlobalDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:text="Envío gratis a todo el país"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/messageInformationGlobalDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:text="Llega 1 a 3 días hábiles después del despacho."
+                android:textSize="16sp"
+                android:layout_below="@+id/titleInformationGlobalDelivery"
+                android:textStyle="italic"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonBuyPdp"
+        android:layout_below="@+id/containingInfoPdp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Comprar"
+        android:elevation="20dp"
+        android:textColor="#e2e2e2"
+        android:textAllCaps="false"
+        android:background="#323e8f"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
